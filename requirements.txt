@@ -1,5 +1,4 @@
-# Direct runtime dependencies for the Waze MCP server.
-# Install with:  pip install -r requirements.txt
-# (the [cli] extra adds the `mcp dev` / `mcp install` commands used for testing)
-mcp[cli]>=1.27
+mcp[cli]==1.30.0
+fastmcp==3.4.8
 requests>=2.32
+python-dotenv>=1.1
